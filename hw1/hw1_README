@@ -1,0 +1,27 @@
+//hw1-README
+
+Create a "hw1" directory under the spark-2.1.0-bin-hadoop2.7 dirrectory
+(Just copy the directory I submitted under spark-2.1.0-bin-hadoop2.7
+
+Those files are under the "hw1" directory:
+"ratings.csv"
+"ratings_large.csv"
+"tags.csv"
+"tags_large.csv"
+"Yiming_Liu.jar"  //I packed four scala classes together into this jar.
+
+Run Yiming_Liu.jar under "spark-2.1.0-bin-hadoop2.7" using command lines below:
+
+bin/spark-submit --class Task1  hw1/Yiming_Liu.jar
+bin/spark-submit --class Task1Large  hw1/Yiming_Liu.jar
+bin/spark-submit --class Task2  hw1/Yiming_Liu.jar
+bin/spark-submit --class Task2Large  hw1/Yiming_Liu.jar //This one may run about 10mins.
+
+Then, the results could be found under "hw1”.
+
+
+SparkVersion:2.1.0
+ScalaVersion:2.11.8
+Compiled and packed jar using SBT.
+
+
